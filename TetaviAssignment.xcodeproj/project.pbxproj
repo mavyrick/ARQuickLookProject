@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354E0E33268DAF5900A445E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E32268DAF5900A445E4 /* AppDelegate.swift */; };
+		354E0E35268DAF5900A445E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E34268DAF5900A445E4 /* SceneDelegate.swift */; };
+		354E0E37268DAF5900A445E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E36268DAF5900A445E4 /* ViewController.swift */; };
+		354E0E3A268DAF5900A445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E38268DAF5900A445E4 /* Main.storyboard */; };
+		354E0E3D268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E3B268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld */; };
+		354E0E3F268DAF5D00A445E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E3E268DAF5D00A445E4 /* Assets.xcassets */; };
+		354E0E42268DAF5D00A445E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */; };
+		354E0E4D268DAF5D00A445E4 /* TetaviAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E4C268DAF5D00A445E4 /* TetaviAssignmentTests.swift */; };
+		354E0E58268DAF5D00A445E4 /* TetaviAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E57268DAF5D00A445E4 /* TetaviAssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354E0E49268DAF5D00A445E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354E0E27268DAF5900A445E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354E0E2E268DAF5900A445E4;
+			remoteInfo = TetaviAssignment;
+		};
+		354E0E54268DAF5D00A445E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354E0E27268DAF5900A445E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354E0E2E268DAF5900A445E4;
+			remoteInfo = TetaviAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		354E0E2F268DAF5900A445E4 /* TetaviAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetaviAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354E0E32268DAF5900A445E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		354E0E34268DAF5900A445E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		354E0E36268DAF5900A445E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		354E0E39268DAF5900A445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		354E0E3C268DAF5900A445E4 /* TetaviAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TetaviAssignment.xcdatamodel; sourceTree = "<group>"; };
+		354E0E3E268DAF5D00A445E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		354E0E41268DAF5D00A445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		354E0E43268DAF5D00A445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354E0E48268DAF5D00A445E4 /* TetaviAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetaviAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354E0E4C268DAF5D00A445E4 /* TetaviAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetaviAssignmentTests.swift; sourceTree = "<group>"; };
+		354E0E4E268DAF5D00A445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354E0E53268DAF5D00A445E4 /* TetaviAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetaviAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354E0E57268DAF5D00A445E4 /* TetaviAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetaviAssignmentUITests.swift; sourceTree = "<group>"; };
+		354E0E59268DAF5D00A445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354E0E2C268DAF5900A445E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E45268DAF5D00A445E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E50268DAF5D00A445E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354E0E26268DAF5900A445E4 = {
+			isa = PBXGroup;
+			children = (
+				354E0E31268DAF5900A445E4 /* TetaviAssignment */,
+				354E0E4B268DAF5D00A445E4 /* TetaviAssignmentTests */,
+				354E0E56268DAF5D00A445E4 /* TetaviAssignmentUITests */,
+				354E0E30268DAF5900A445E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		354E0E30268DAF5900A445E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354E0E2F268DAF5900A445E4 /* TetaviAssignment.app */,
+				354E0E48268DAF5D00A445E4 /* TetaviAssignmentTests.xctest */,
+				354E0E53268DAF5D00A445E4 /* TetaviAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354E0E31268DAF5900A445E4 /* TetaviAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				354E0E32268DAF5900A445E4 /* AppDelegate.swift */,
+				354E0E34268DAF5900A445E4 /* SceneDelegate.swift */,
+				354E0E36268DAF5900A445E4 /* ViewController.swift */,
+				354E0E38268DAF5900A445E4 /* Main.storyboard */,
+				354E0E3E268DAF5D00A445E4 /* Assets.xcassets */,
+				354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */,
+				354E0E43268DAF5D00A445E4 /* Info.plist */,
+				354E0E3B268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld */,
+			);
+			path = TetaviAssignment;
+			sourceTree = "<group>";
+		};
+		354E0E4B268DAF5D00A445E4 /* TetaviAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				354E0E4C268DAF5D00A445E4 /* TetaviAssignmentTests.swift */,
+				354E0E4E268DAF5D00A445E4 /* Info.plist */,
+			);
+			path = TetaviAssignmentTests;
+			sourceTree = "<group>";
+		};
+		354E0E56268DAF5D00A445E4 /* TetaviAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				354E0E57268DAF5D00A445E4 /* TetaviAssignmentUITests.swift */,
+				354E0E59268DAF5D00A445E4 /* Info.plist */,
+			);
+			path = TetaviAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		354E0E2E268DAF5900A445E4 /* TetaviAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354E0E5C268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignment" */;
+			buildPhases = (
+				354E0E2B268DAF5900A445E4 /* Sources */,
+				354E0E2C268DAF5900A445E4 /* Frameworks */,
+				354E0E2D268DAF5900A445E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetaviAssignment;
+			productName = TetaviAssignment;
+			productReference = 354E0E2F268DAF5900A445E4 /* TetaviAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		354E0E47268DAF5D00A445E4 /* TetaviAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354E0E5F268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentTests" */;
+			buildPhases = (
+				354E0E44268DAF5D00A445E4 /* Sources */,
+				354E0E45268DAF5D00A445E4 /* Frameworks */,
+				354E0E46268DAF5D00A445E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354E0E4A268DAF5D00A445E4 /* PBXTargetDependency */,
+			);
+			name = TetaviAssignmentTests;
+			productName = TetaviAssignmentTests;
+			productReference = 354E0E48268DAF5D00A445E4 /* TetaviAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		354E0E52268DAF5D00A445E4 /* TetaviAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354E0E62268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentUITests" */;
+			buildPhases = (
+				354E0E4F268DAF5D00A445E4 /* Sources */,
+				354E0E50268DAF5D00A445E4 /* Frameworks */,
+				354E0E51268DAF5D00A445E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354E0E55268DAF5D00A445E4 /* PBXTargetDependency */,
+			);
+			name = TetaviAssignmentUITests;
+			productName = TetaviAssignmentUITests;
+			productReference = 354E0E53268DAF5D00A445E4 /* TetaviAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354E0E27268DAF5900A445E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					354E0E2E268DAF5900A445E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					354E0E47268DAF5D00A445E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 354E0E2E268DAF5900A445E4;
+					};
+					354E0E52268DAF5D00A445E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 354E0E2E268DAF5900A445E4;
+					};
+				};
+			};
+			buildConfigurationList = 354E0E2A268DAF5900A445E4 /* Build configuration list for PBXProject "TetaviAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354E0E26268DAF5900A445E4;
+			productRefGroup = 354E0E30268DAF5900A445E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				354E0E2E268DAF5900A445E4 /* TetaviAssignment */,
+				354E0E47268DAF5D00A445E4 /* TetaviAssignmentTests */,
+				354E0E52268DAF5D00A445E4 /* TetaviAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		354E0E2D268DAF5900A445E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354E0E42268DAF5D00A445E4 /* LaunchScreen.storyboard in Resources */,
+				354E0E3F268DAF5D00A445E4 /* Assets.xcassets in Resources */,
+				354E0E3A268DAF5900A445E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E46268DAF5D00A445E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E51268DAF5D00A445E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354E0E2B268DAF5900A445E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354E0E37268DAF5900A445E4 /* ViewController.swift in Sources */,
+				354E0E33268DAF5900A445E4 /* AppDelegate.swift in Sources */,
+				354E0E35268DAF5900A445E4 /* SceneDelegate.swift in Sources */,
+				354E0E3D268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E44268DAF5D00A445E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354E0E4D268DAF5D00A445E4 /* TetaviAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354E0E4F268DAF5D00A445E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354E0E58268DAF5D00A445E4 /* TetaviAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354E0E4A268DAF5D00A445E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354E0E2E268DAF5900A445E4 /* TetaviAssignment */;
+			targetProxy = 354E0E49268DAF5D00A445E4 /* PBXContainerItemProxy */;
+		};
+		354E0E55268DAF5D00A445E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354E0E2E268DAF5900A445E4 /* TetaviAssignment */;
+			targetProxy = 354E0E54268DAF5D00A445E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		354E0E38268DAF5900A445E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354E0E39268DAF5900A445E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354E0E41268DAF5D00A445E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354E0E5A268DAF5D00A445E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		354E0E5B268DAF5D00A445E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354E0E5D268DAF5D00A445E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		354E0E5E268DAF5D00A445E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		354E0E60268DAF5D00A445E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetaviAssignment.app/TetaviAssignment";
+			};
+			name = Debug;
+		};
+		354E0E61268DAF5D00A445E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetaviAssignment.app/TetaviAssignment";
+			};
+			name = Release;
+		};
+		354E0E63268DAF5D00A445E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TetaviAssignment;
+			};
+			name = Debug;
+		};
+		354E0E64268DAF5D00A445E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = TetaviAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enjeera.TetaviAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TetaviAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354E0E2A268DAF5900A445E4 /* Build configuration list for PBXProject "TetaviAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354E0E5A268DAF5D00A445E4 /* Debug */,
+				354E0E5B268DAF5D00A445E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354E0E5C268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354E0E5D268DAF5D00A445E4 /* Debug */,
+				354E0E5E268DAF5D00A445E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354E0E5F268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354E0E60268DAF5D00A445E4 /* Debug */,
+				354E0E61268DAF5D00A445E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354E0E62268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354E0E63268DAF5D00A445E4 /* Debug */,
+				354E0E64268DAF5D00A445E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		354E0E3B268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				354E0E3C268DAF5900A445E4 /* TetaviAssignment.xcdatamodel */,
+			);
+			currentVersion = 354E0E3C268DAF5900A445E4 /* TetaviAssignment.xcdatamodel */;
+			path = TetaviAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 354E0E27268DAF5900A445E4 /* Project object */;
+}
