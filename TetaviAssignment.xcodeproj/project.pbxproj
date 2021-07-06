@@ -3,19 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AA44840C13FC112A3AE30B /* Pods_TetaviAssignment_TetaviAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA0DCFA0B52F36BC2BC3B2 /* Pods_TetaviAssignment_TetaviAssignmentUITests.framework */; };
+		0702B1640B5EFB8E5D555E3E /* Pods_TetaviAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749FB386E6E51679F2F72EE9 /* Pods_TetaviAssignment.framework */; };
+		350A76D326935EB9007D08F1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A76D226935EB9007D08F1 /* TabBarViewController.swift */; };
+		350B9200268F6594001D0C02 /* FirebaseUpdateNewsFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B91FF268F6594001D0C02 /* FirebaseUpdateNewsFeedService.swift */; };
+		350B9205268F74FA001D0C02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9204268F74FA001D0C02 /* LoginViewController.swift */; };
+		350B9207268F7511001D0C02 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9206268F7511001D0C02 /* SignUpViewController.swift */; };
+		350B920A268F7688001D0C02 /* SignInServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9209268F7688001D0C02 /* SignInServiceProtocol.swift */; };
+		350B920C268F7737001D0C02 /* FirebaseSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B920B268F7737001D0C02 /* FirebaseSignInService.swift */; };
+		350B9211268F7CE7001D0C02 /* AuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9210268F7CE7001D0C02 /* AuthResult.swift */; };
+		350B9213268F8D05001D0C02 /* SignUpServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9212268F8D04001D0C02 /* SignUpServiceProtocol.swift */; };
+		350B9215268F8E70001D0C02 /* FirebaseSignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B9214268F8E70001D0C02 /* FirebaseSignUpService.swift */; };
 		354E0E33268DAF5900A445E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E32268DAF5900A445E4 /* AppDelegate.swift */; };
 		354E0E35268DAF5900A445E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E34268DAF5900A445E4 /* SceneDelegate.swift */; };
-		354E0E37268DAF5900A445E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E36268DAF5900A445E4 /* ViewController.swift */; };
+		354E0E37268DAF5900A445E4 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E36268DAF5900A445E4 /* NewsFeedViewController.swift */; };
 		354E0E3A268DAF5900A445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E38268DAF5900A445E4 /* Main.storyboard */; };
 		354E0E3D268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E3B268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld */; };
 		354E0E3F268DAF5D00A445E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E3E268DAF5D00A445E4 /* Assets.xcassets */; };
 		354E0E42268DAF5D00A445E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */; };
 		354E0E4D268DAF5D00A445E4 /* TetaviAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E4C268DAF5D00A445E4 /* TetaviAssignmentTests.swift */; };
 		354E0E58268DAF5D00A445E4 /* TetaviAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E0E57268DAF5D00A445E4 /* TetaviAssignmentUITests.swift */; };
+		35674AE22690E5CE0032A23D /* FirebaseLikeGraphicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35674AE12690E5CE0032A23D /* FirebaseLikeGraphicService.swift */; };
+		3577C554268E25C200031998 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577C553268E25C200031998 /* art.scnassets */; };
+		3577C55E268E44E900031998 /* NewsFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577C55D268E44E900031998 /* NewsFeedTableViewCell.swift */; };
+		3577C561268E50EB00031998 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C560268E50EA00031998 /* toy_robot_vintage.usdz */; };
+		3577C570268E51AC00031998 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C565268E51A600031998 /* chair_swan.usdz */; };
+		3577C571268E51AC00031998 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C566268E51A700031998 /* cup_saucer_set.usdz */; };
+		3577C572268E51AC00031998 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C567268E51A700031998 /* teapot.usdz */; };
+		3577C574268E51AC00031998 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C569268E51A900031998 /* toy_drummer.usdz */; };
+		3577C576268E51AC00031998 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C56B268E51AA00031998 /* flower_tulip.usdz */; };
+		3577C577268E51AC00031998 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C56C268E51AB00031998 /* toy_car.usdz */; };
+		3577C579268E51AC00031998 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C56E268E51AC00031998 /* fender_stratocaster.usdz */; };
+		3577C57D268E5AF700031998 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C57A268E5AF500031998 /* tv_retro.usdz */; };
+		3577C57E268E5AF700031998 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3577C57B268E5AF600031998 /* toy_biplane.usdz */; };
+		3577C584268F48DA00031998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3577C583268F48DA00031998 /* GoogleService-Info.plist */; };
+		35882FB32692152100FB522B /* FirebaseAddGraphicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35882FB22692152100FB522B /* FirebaseAddGraphicService.swift */; };
+		35882FB52692192A00FB522B /* AddGraphicServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35882FB42692192A00FB522B /* AddGraphicServiceProtocol.swift */; };
+		35882FB726921A3000FB522B /* FirebaseUpdateMyGraphicsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35882FB626921A3000FB522B /* FirebaseUpdateMyGraphicsService.swift */; };
+		35882FB926921CE900FB522B /* MyGraphicsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35882FB826921CE900FB522B /* MyGraphicsItem.swift */; };
+		35882FBB26921E2800FB522B /* UpdateMyGraphicsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35882FBA26921E2800FB522B /* UpdateMyGraphicsServiceProtocol.swift */; };
+		35C52A982690912000AAA2F6 /* MyGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C52A972690912000AAA2F6 /* MyGraphicsViewController.swift */; };
+		35C52A9C2690AE2F00AAA2F6 /* MyGraphicsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C52A9B2690AE2F00AAA2F6 /* MyGraphicsCollectionViewCell.swift */; };
+		35C52A9E2690C1AD00AAA2F6 /* GraphicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C52A9D2690C1AD00AAA2F6 /* GraphicsData.swift */; };
+		35C52AA02690C6D500AAA2F6 /* UpdateNewsFeedServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C52A9F2690C6D500AAA2F6 /* UpdateNewsFeedServiceProtocol.swift */; };
+		35DFA747268DB2E30094C47A /* NewsFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DFA746268DB2E30094C47A /* NewsFeedItem.swift */; };
+		35F5EEAD2693B61400BF687A /* FirebaseDeleteGraphicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5EEAC2693B61300BF687A /* FirebaseDeleteGraphicService.swift */; };
+		35F5EEAF2693B7FD00BF687A /* DeleteGraphicServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5EEAE2693B7FD00BF687A /* DeleteGraphicServiceProtocol.swift */; };
+		35F5EEB22693C28A00BF687A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5EEB12693C28A00BF687A /* UIViewController+Extension.swift */; };
+		35FD02AD2691C18700DD2986 /* LikeGraphicServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD02AC2691C18700DD2986 /* LikeGraphicServiceProtocol.swift */; };
+		D74DA53C34A5D671CF9C1E1A /* Pods_TetaviAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186ED487B2C6EDAF62441050 /* Pods_TetaviAssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +76,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186ED487B2C6EDAF62441050 /* Pods_TetaviAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TetaviAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251C7076C7C29B68525E7B20 /* Pods-TetaviAssignment-TetaviAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignment-TetaviAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-TetaviAssignment-TetaviAssignmentUITests/Pods-TetaviAssignment-TetaviAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		350A76D226935EB9007D08F1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		350B91FF268F6594001D0C02 /* FirebaseUpdateNewsFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUpdateNewsFeedService.swift; sourceTree = "<group>"; };
+		350B9204268F74FA001D0C02 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		350B9206268F7511001D0C02 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		350B9209268F7688001D0C02 /* SignInServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInServiceProtocol.swift; sourceTree = "<group>"; };
+		350B920B268F7737001D0C02 /* FirebaseSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSignInService.swift; sourceTree = "<group>"; };
+		350B9210268F7CE7001D0C02 /* AuthResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResult.swift; sourceTree = "<group>"; };
+		350B9212268F8D04001D0C02 /* SignUpServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpServiceProtocol.swift; sourceTree = "<group>"; };
+		350B9214268F8E70001D0C02 /* FirebaseSignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSignUpService.swift; sourceTree = "<group>"; };
 		354E0E2F268DAF5900A445E4 /* TetaviAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetaviAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354E0E32268DAF5900A445E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		354E0E34268DAF5900A445E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		354E0E36268DAF5900A445E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		354E0E36268DAF5900A445E4 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		354E0E39268DAF5900A445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		354E0E3C268DAF5900A445E4 /* TetaviAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TetaviAssignment.xcdatamodel; sourceTree = "<group>"; };
 		354E0E3E268DAF5D00A445E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +102,41 @@
 		354E0E53268DAF5D00A445E4 /* TetaviAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetaviAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		354E0E57268DAF5D00A445E4 /* TetaviAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetaviAssignmentUITests.swift; sourceTree = "<group>"; };
 		354E0E59268DAF5D00A445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35674AE12690E5CE0032A23D /* FirebaseLikeGraphicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLikeGraphicService.swift; sourceTree = "<group>"; };
+		3577C553268E25C200031998 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3577C55D268E44E900031998 /* NewsFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewCell.swift; sourceTree = "<group>"; };
+		3577C560268E50EA00031998 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		3577C565268E51A600031998 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		3577C566268E51A700031998 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		3577C567268E51A700031998 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		3577C569268E51A900031998 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		3577C56B268E51AA00031998 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		3577C56C268E51AB00031998 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		3577C56E268E51AC00031998 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		3577C57A268E5AF500031998 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		3577C57B268E5AF600031998 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		3577C583268F48DA00031998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35882FB22692152100FB522B /* FirebaseAddGraphicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAddGraphicService.swift; sourceTree = "<group>"; };
+		35882FB42692192A00FB522B /* AddGraphicServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGraphicServiceProtocol.swift; sourceTree = "<group>"; };
+		35882FB626921A3000FB522B /* FirebaseUpdateMyGraphicsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUpdateMyGraphicsService.swift; sourceTree = "<group>"; };
+		35882FB826921CE900FB522B /* MyGraphicsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphicsItem.swift; sourceTree = "<group>"; };
+		35882FBA26921E2800FB522B /* UpdateMyGraphicsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMyGraphicsServiceProtocol.swift; sourceTree = "<group>"; };
+		35C52A972690912000AAA2F6 /* MyGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphicsViewController.swift; sourceTree = "<group>"; };
+		35C52A9B2690AE2F00AAA2F6 /* MyGraphicsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphicsCollectionViewCell.swift; sourceTree = "<group>"; };
+		35C52A9D2690C1AD00AAA2F6 /* GraphicsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicsData.swift; sourceTree = "<group>"; };
+		35C52A9F2690C6D500AAA2F6 /* UpdateNewsFeedServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UpdateNewsFeedServiceProtocol.swift; path = Firebase/UpdateNewsFeedServiceProtocol.swift; sourceTree = "<group>"; };
+		35DFA746268DB2E30094C47A /* NewsFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedItem.swift; sourceTree = "<group>"; };
+		35F5EEAC2693B61300BF687A /* FirebaseDeleteGraphicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDeleteGraphicService.swift; sourceTree = "<group>"; };
+		35F5EEAE2693B7FD00BF687A /* DeleteGraphicServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteGraphicServiceProtocol.swift; sourceTree = "<group>"; };
+		35F5EEB12693C28A00BF687A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		35FD02AC2691C18700DD2986 /* LikeGraphicServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeGraphicServiceProtocol.swift; sourceTree = "<group>"; };
+		4BACB85C79E8A18BEBFE4790 /* Pods-TetaviAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignment.release.xcconfig"; path = "Target Support Files/Pods-TetaviAssignment/Pods-TetaviAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		749FB386E6E51679F2F72EE9 /* Pods_TetaviAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TetaviAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFD632DB980E3123C509EE5 /* Pods-TetaviAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignment.debug.xcconfig"; path = "Target Support Files/Pods-TetaviAssignment/Pods-TetaviAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		9246907B23740E2F9BE35F3B /* Pods-TetaviAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-TetaviAssignmentTests/Pods-TetaviAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1CA0DCFA0B52F36BC2BC3B2 /* Pods_TetaviAssignment_TetaviAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TetaviAssignment_TetaviAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2D886EDB84083E5507B6E /* Pods-TetaviAssignment-TetaviAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignment-TetaviAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-TetaviAssignment-TetaviAssignmentUITests/Pods-TetaviAssignment-TetaviAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB50E80E6348DFA46D437910 /* Pods-TetaviAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetaviAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-TetaviAssignmentTests/Pods-TetaviAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0702B1640B5EFB8E5D555E3E /* Pods_TetaviAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74DA53C34A5D671CF9C1E1A /* Pods_TetaviAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +160,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA44840C13FC112A3AE30B /* Pods_TetaviAssignment_TetaviAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135E111D56A44953D314E84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				749FB386E6E51679F2F72EE9 /* Pods_TetaviAssignment.framework */,
+				C1CA0DCFA0B52F36BC2BC3B2 /* Pods_TetaviAssignment_TetaviAssignmentUITests.framework */,
+				186ED487B2C6EDAF62441050 /* Pods_TetaviAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350B91FE268F5F50001D0C02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35FD02AB2691C15C00DD2986 /* Firebase */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		350B9203268F74D3001D0C02 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				350B9204268F74FA001D0C02 /* LoginViewController.swift */,
+				350B9206268F7511001D0C02 /* SignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		350B9208268F7654001D0C02 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				350B9209268F7688001D0C02 /* SignInServiceProtocol.swift */,
+				35F5EEAE2693B7FD00BF687A /* DeleteGraphicServiceProtocol.swift */,
+				35FD02AC2691C18700DD2986 /* LikeGraphicServiceProtocol.swift */,
+				35C52A9F2690C6D500AAA2F6 /* UpdateNewsFeedServiceProtocol.swift */,
+				35882FBA26921E2800FB522B /* UpdateMyGraphicsServiceProtocol.swift */,
+				35882FB42692192A00FB522B /* AddGraphicServiceProtocol.swift */,
+				350B9212268F8D04001D0C02 /* SignUpServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		350B920D268F78C5001D0C02 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				350B9210268F7CE7001D0C02 /* AuthResult.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
 		354E0E26268DAF5900A445E4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +223,8 @@
 				354E0E4B268DAF5D00A445E4 /* TetaviAssignmentTests */,
 				354E0E56268DAF5D00A445E4 /* TetaviAssignmentUITests */,
 				354E0E30268DAF5900A445E4 /* Products */,
+				DD67612C125337FC07FD78EF /* Pods */,
+				135E111D56A44953D314E84A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +243,19 @@
 			children = (
 				354E0E32268DAF5900A445E4 /* AppDelegate.swift */,
 				354E0E34268DAF5900A445E4 /* SceneDelegate.swift */,
-				354E0E36268DAF5900A445E4 /* ViewController.swift */,
-				354E0E38268DAF5900A445E4 /* Main.storyboard */,
+				35DFA743268DB2820094C47A /* Models */,
+				35DFA744268DB28B0094C47A /* Views */,
+				35DFA745268DB2A10094C47A /* Controllers */,
+				350B91FE268F5F50001D0C02 /* Services */,
+				350B9208268F7654001D0C02 /* Protocols */,
+				350B920D268F78C5001D0C02 /* Enumerations */,
+				35F5EEB02693C1F700BF687A /* Extensions */,
+				3577C580268E5FEC00031998 /* MockData */,
+				3577C55F268E50D200031998 /* 3DModels */,
 				354E0E3E268DAF5D00A445E4 /* Assets.xcassets */,
-				354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */,
+				3577C553268E25C200031998 /* art.scnassets */,
 				354E0E43268DAF5D00A445E4 /* Info.plist */,
+				3577C583268F48DA00031998 /* GoogleService-Info.plist */,
 				354E0E3B268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld */,
 			);
 			path = TetaviAssignment;
@@ -131,6 +279,98 @@
 			path = TetaviAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		3577C55F268E50D200031998 /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				3577C57B268E5AF600031998 /* toy_biplane.usdz */,
+				3577C57A268E5AF500031998 /* tv_retro.usdz */,
+				3577C565268E51A600031998 /* chair_swan.usdz */,
+				3577C566268E51A700031998 /* cup_saucer_set.usdz */,
+				3577C56E268E51AC00031998 /* fender_stratocaster.usdz */,
+				3577C56B268E51AA00031998 /* flower_tulip.usdz */,
+				3577C567268E51A700031998 /* teapot.usdz */,
+				3577C56C268E51AB00031998 /* toy_car.usdz */,
+				3577C569268E51A900031998 /* toy_drummer.usdz */,
+				3577C560268E50EA00031998 /* toy_robot_vintage.usdz */,
+			);
+			path = 3DModels;
+			sourceTree = "<group>";
+		};
+		3577C580268E5FEC00031998 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				35C52A9D2690C1AD00AAA2F6 /* GraphicsData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		35DFA743268DB2820094C47A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35DFA746268DB2E30094C47A /* NewsFeedItem.swift */,
+				35882FB826921CE900FB522B /* MyGraphicsItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35DFA744268DB28B0094C47A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				354E0E38268DAF5900A445E4 /* Main.storyboard */,
+				354E0E40268DAF5D00A445E4 /* LaunchScreen.storyboard */,
+				3577C55D268E44E900031998 /* NewsFeedTableViewCell.swift */,
+				35C52A9B2690AE2F00AAA2F6 /* MyGraphicsCollectionViewCell.swift */,
+			);
+			name = Views;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35DFA745268DB2A10094C47A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				350B9203268F74D3001D0C02 /* Authentication */,
+				354E0E36268DAF5900A445E4 /* NewsFeedViewController.swift */,
+				35C52A972690912000AAA2F6 /* MyGraphicsViewController.swift */,
+				350A76D226935EB9007D08F1 /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		35F5EEB02693C1F700BF687A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35F5EEB12693C28A00BF687A /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35FD02AB2691C15C00DD2986 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				350B91FF268F6594001D0C02 /* FirebaseUpdateNewsFeedService.swift */,
+				35882FB626921A3000FB522B /* FirebaseUpdateMyGraphicsService.swift */,
+				35674AE12690E5CE0032A23D /* FirebaseLikeGraphicService.swift */,
+				35882FB22692152100FB522B /* FirebaseAddGraphicService.swift */,
+				35F5EEAC2693B61300BF687A /* FirebaseDeleteGraphicService.swift */,
+				350B920B268F7737001D0C02 /* FirebaseSignInService.swift */,
+				350B9214268F8E70001D0C02 /* FirebaseSignUpService.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		DD67612C125337FC07FD78EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CFD632DB980E3123C509EE5 /* Pods-TetaviAssignment.debug.xcconfig */,
+				4BACB85C79E8A18BEBFE4790 /* Pods-TetaviAssignment.release.xcconfig */,
+				251C7076C7C29B68525E7B20 /* Pods-TetaviAssignment-TetaviAssignmentUITests.debug.xcconfig */,
+				C9B2D886EDB84083E5507B6E /* Pods-TetaviAssignment-TetaviAssignmentUITests.release.xcconfig */,
+				EB50E80E6348DFA46D437910 /* Pods-TetaviAssignmentTests.debug.xcconfig */,
+				9246907B23740E2F9BE35F3B /* Pods-TetaviAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 354E0E5C268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignment" */;
 			buildPhases = (
+				D2E28626473A64E81E79832B /* [CP] Check Pods Manifest.lock */,
 				354E0E2B268DAF5900A445E4 /* Sources */,
 				354E0E2C268DAF5900A445E4 /* Frameworks */,
 				354E0E2D268DAF5900A445E4 /* Resources */,
+				0C2B31929FD321D77150623F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 354E0E5F268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentTests" */;
 			buildPhases = (
+				82497F3F5A83DA1FB006F1C4 /* [CP] Check Pods Manifest.lock */,
 				354E0E44268DAF5D00A445E4 /* Sources */,
 				354E0E45268DAF5D00A445E4 /* Frameworks */,
 				354E0E46268DAF5D00A445E4 /* Resources */,
@@ -173,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 354E0E62268DAF5D00A445E4 /* Build configuration list for PBXNativeTarget "TetaviAssignmentUITests" */;
 			buildPhases = (
+				03B0679224ECA8747E7AF44C /* [CP] Check Pods Manifest.lock */,
 				354E0E4F268DAF5D00A445E4 /* Sources */,
 				354E0E50268DAF5D00A445E4 /* Frameworks */,
 				354E0E51268DAF5D00A445E4 /* Resources */,
+				6B1898554AE3A66643E6C390 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,8 +479,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3577C57E268E5AF700031998 /* toy_biplane.usdz in Resources */,
+				3577C57D268E5AF700031998 /* tv_retro.usdz in Resources */,
 				354E0E42268DAF5D00A445E4 /* LaunchScreen.storyboard in Resources */,
+				3577C577268E51AC00031998 /* toy_car.usdz in Resources */,
+				3577C579268E51AC00031998 /* fender_stratocaster.usdz in Resources */,
+				3577C554268E25C200031998 /* art.scnassets in Resources */,
+				3577C576268E51AC00031998 /* flower_tulip.usdz in Resources */,
+				3577C571268E51AC00031998 /* cup_saucer_set.usdz in Resources */,
+				3577C561268E50EB00031998 /* toy_robot_vintage.usdz in Resources */,
+				3577C574268E51AC00031998 /* toy_drummer.usdz in Resources */,
+				3577C570268E51AC00031998 /* chair_swan.usdz in Resources */,
 				354E0E3F268DAF5D00A445E4 /* Assets.xcassets in Resources */,
+				3577C572268E51AC00031998 /* teapot.usdz in Resources */,
+				3577C584268F48DA00031998 /* GoogleService-Info.plist in Resources */,
 				354E0E3A268DAF5900A445E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,15 +513,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B0679224ECA8747E7AF44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TetaviAssignment-TetaviAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2B31929FD321D77150623F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment/Pods-TetaviAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment/Pods-TetaviAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment/Pods-TetaviAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1898554AE3A66643E6C390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment-TetaviAssignmentUITests/Pods-TetaviAssignment-TetaviAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment-TetaviAssignmentUITests/Pods-TetaviAssignment-TetaviAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TetaviAssignment-TetaviAssignmentUITests/Pods-TetaviAssignment-TetaviAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82497F3F5A83DA1FB006F1C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TetaviAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E28626473A64E81E79832B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TetaviAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		354E0E2B268DAF5900A445E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354E0E37268DAF5900A445E4 /* ViewController.swift in Sources */,
+				350B9213268F8D05001D0C02 /* SignUpServiceProtocol.swift in Sources */,
+				350B9205268F74FA001D0C02 /* LoginViewController.swift in Sources */,
+				350B9215268F8E70001D0C02 /* FirebaseSignUpService.swift in Sources */,
+				354E0E37268DAF5900A445E4 /* NewsFeedViewController.swift in Sources */,
+				350A76D326935EB9007D08F1 /* TabBarViewController.swift in Sources */,
+				35882FB52692192A00FB522B /* AddGraphicServiceProtocol.swift in Sources */,
+				35C52AA02690C6D500AAA2F6 /* UpdateNewsFeedServiceProtocol.swift in Sources */,
 				354E0E33268DAF5900A445E4 /* AppDelegate.swift in Sources */,
+				35882FB726921A3000FB522B /* FirebaseUpdateMyGraphicsService.swift in Sources */,
+				35C52A9E2690C1AD00AAA2F6 /* GraphicsData.swift in Sources */,
+				35882FBB26921E2800FB522B /* UpdateMyGraphicsServiceProtocol.swift in Sources */,
+				35882FB926921CE900FB522B /* MyGraphicsItem.swift in Sources */,
+				350B920A268F7688001D0C02 /* SignInServiceProtocol.swift in Sources */,
+				35882FB32692152100FB522B /* FirebaseAddGraphicService.swift in Sources */,
+				350B9211268F7CE7001D0C02 /* AuthResult.swift in Sources */,
+				35C52A9C2690AE2F00AAA2F6 /* MyGraphicsCollectionViewCell.swift in Sources */,
+				35F5EEAF2693B7FD00BF687A /* DeleteGraphicServiceProtocol.swift in Sources */,
+				35F5EEAD2693B61400BF687A /* FirebaseDeleteGraphicService.swift in Sources */,
+				35674AE22690E5CE0032A23D /* FirebaseLikeGraphicService.swift in Sources */,
+				35FD02AD2691C18700DD2986 /* LikeGraphicServiceProtocol.swift in Sources */,
 				354E0E35268DAF5900A445E4 /* SceneDelegate.swift in Sources */,
+				35C52A982690912000AAA2F6 /* MyGraphicsViewController.swift in Sources */,
+				3577C55E268E44E900031998 /* NewsFeedTableViewCell.swift in Sources */,
+				350B9200268F6594001D0C02 /* FirebaseUpdateNewsFeedService.swift in Sources */,
+				35F5EEB22693C28A00BF687A /* UIViewController+Extension.swift in Sources */,
 				354E0E3D268DAF5900A445E4 /* TetaviAssignment.xcdatamodeld in Sources */,
+				350B9207268F7511001D0C02 /* SignUpViewController.swift in Sources */,
+				35DFA747268DB2E30094C47A /* NewsFeedItem.swift in Sources */,
+				350B920C268F7737001D0C02 /* FirebaseSignInService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +822,7 @@
 		};
 		354E0E5D268DAF5D00A445E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFD632DB980E3123C509EE5 /* Pods-TetaviAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +842,7 @@
 		};
 		354E0E5E268DAF5D00A445E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BACB85C79E8A18BEBFE4790 /* Pods-TetaviAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +862,7 @@
 		};
 		354E0E60268DAF5D00A445E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB50E80E6348DFA46D437910 /* Pods-TetaviAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +885,7 @@
 		};
 		354E0E61268DAF5D00A445E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9246907B23740E2F9BE35F3B /* Pods-TetaviAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +908,7 @@
 		};
 		354E0E63268DAF5D00A445E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251C7076C7C29B68525E7B20 /* Pods-TetaviAssignment-TetaviAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +929,7 @@
 		};
 		354E0E64268DAF5D00A445E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B2D886EDB84083E5507B6E /* Pods-TetaviAssignment-TetaviAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
